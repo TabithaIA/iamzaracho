@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+ .page {
+  background: rgb(189, 219, 248);
+  transform: translate(0px, -280px);
+ }
+
+ .bg {
+  background: rgb(90, 111, 205);
+  border-radius: 20px;
+}
+ .bg2 {
+  background: rgb(61, 86, 139);
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+ .downbg {
+  background: rgb(90, 126, 205);
+  flex: flex-direction;
+  text-align: center;
+  justify-content: center;
+  transform: translate(0px, 240px);
+  border-radius: 20px;
+}
+
+ .centerbutton {
+  background: rgb(144, 185, 238);
+  padding: 10px;
+  border-radius: 10px;
+  border: 20px, 20px;
+  border-color: aqua;
+  margin: 0 2px;
+}
+ .centerbutton:hover {
+  background: rgb(195, 212, 231);
+  padding: 10px;
+  border-radius: 10px;
+  border: 20px, 20px;
+  border-color: rgb(127, 193, 255);
+  margin: 0 2px;
+  padding-left: 25px;
+  padding-right: 25px;
+ }
+ .centerbuttonpressed {
+  background: rgb(0, 83, 139);
+  padding: 10px;
+  border-radius: 10px;
+  border: 20px, 20px;
+  border-color: rgb(47, 73, 107);
+  margin: 0 2px;
+}
+
+ .img {
+  transition: transform 0.1s ease;
+  border-radius: 50px;
+  border: 1px solid black;
+ }
+ .img:hover {
+  transform: scale(1.2);
+  border-radius: 5px;
+  border: 1px solid black;
+ }
+</style>
+
+<body class="page">
+ <div style="flex: flex-direction; text-align: center; justify-content: center; transform: translate(0px, 298px);" class="bg">
+  <img src="me.jpg" width="300" style="transform: translate(5px, 105px); border-radius: 50px;">
+  <h1 style="transform: translate(0px, -150px);">
+    .: Hola, Zaracho Carolina :.
+  </h1>
+  <br><br>
+  <h3 style="transform: translate(0px, 5px);">
+    ¡Bienvenido a tu sitio personal!
+  </h3>
+    <br><br>
+    <p style="transform: translate(0px, -40px);">Este es tu lugar personal para guardar recuerdos, videos, musica y más, ¡toma asiento y divertete!</p>
+ </div>
+
+ <div style="display: flex; flex: flex-direction; text-align: center; justify-content: center; transform: translate(0px, -140px);" class="bg2">
+  <a href="about.html">
+    <button class="centerbutton">Sobre ti</button>
+  </a>
+  <a href="log.html">
+    <button class="centerbuttonpressed">Actualizaciones</button>
+  </a>
+ </div>
+
+ <div class="downbg">
+  <strong><h2 style="background: rgb(56, 84, 175); border-radius: 20px;">Actualizaciones</h2></strong>
+  <h4 style="background: rgb(144, 182, 238); border: 2px solid rgb(0, 66, 209); border-radius: 20px;">
+    [ 3 de Septiembre del 2026 - Nacimiento ]
+    <br>
+    <strong style="color: rgb(0, 37, 139);">.: La página ha sido creada :.</strong>
+  </h4>
+ </div>
+</body>
+</html>
